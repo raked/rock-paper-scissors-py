@@ -8,6 +8,10 @@ def main():
     cpuChoice = random.randint(1, 3)
     if (int(userChoice) == cpuChoice):
         print("You both chose the same. Try again.")
+    elif(int(userChoice) == 1 and cpuChoice == 2):
+        print("Paper beats rock. CPU wins.")
+    elif(int(userChoice) == 1 and cpuChoice == 3):
+        print("Rock beats scissors. You win.")
 
 
 main()
