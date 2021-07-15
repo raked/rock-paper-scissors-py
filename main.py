@@ -16,6 +16,10 @@ def main():
         print("Paper beats rock. You win.")
     elif (int(userChoice) == 2 and cpuChoice == 3):
         print("Scissors beats paper. CPU wins.")
+    elif (int(userChoice) == 3 and cpuChoice == 1):
+        print("Rock beats scissors. CPU wins.")
+    elif (int(userChoice) == 3 and cpuChoice == 2):
+        print("Scissors beats paper. You win.")
 
 
 main()
